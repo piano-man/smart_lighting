@@ -1,6 +1,9 @@
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 import smbus
 import time
 import subprocess
+import requests
  
 # Define some constants from the datasheet
  
@@ -35,14 +38,25 @@ def convertToNumber(data):
   return ((data[1] + (256 * data[0])) / 1.2)
  
 def readLight(addr=DEVICE):
-  data = bus.read_i2c_block_data(addr,ONE_TIME_HIGH_RES_MODE_1)
-  return convertToNumber(data)
+  try:	
+   data = bus.read_i2c_block_data(addr,ONE_TIME_HIGH_RES_MODE_1)
+   return convertToNumber(data)
+  except IOError:
+    subprocess.call(['i2cdetect', '-y', '1'])
+    flag = 1
  
 def main():
  
   while True:
     print( "Light Level : " + str(readLight()) + " lx")
-    time.sleep(0.5)
+    url = 'http://172.20.18.16:5000/intensity'
+    post_fields = {'intensity': str(readLight()),\
+		'module_no': "23",\
+		'pi_token':"test12345"}
+    #request = Request(url, urlencode(post_fields).encode())
+    r= requests.post(url,json=post_fields)
+    print(r)
+    time.sleep(2)
    
 if __name__=="__main__":
    main()
