@@ -51,7 +51,6 @@ def main():
  
   while True:
     i = int(readLight())
-    print(type(i))
     print(i)
     if i < 40:
         y=80
@@ -77,7 +76,7 @@ def main():
     #request = Request(url, urlencode(post_fields).encode())
     #r= requests.post(url,json=post_fields)
     #print(r)
-    time.sleep(5)
+    time.sleep(2)
     print("exiting")
    
 if __name__=="__main__":
