@@ -4,6 +4,8 @@ import smbus
 import time
 import subprocess
 import requests
+from subprocess import Popen
+from math import exp
  
 # Define some constants from the datasheet
  
@@ -48,25 +50,35 @@ def readLight(addr=DEVICE):
 def main():
  
   while True:
-    i = str(readLight())
-    if i in range():
-
-
-
-
-    elif i in range():
-
-
-
-    print( "Light Level : " + str(readLight()) + " lx")
-    url = 'http://172.20.18.16:5000/intensity'
-    post_fields = {'intensity': str(readLight()),\
-		'module_no': "23",\
-		'pi_token':"test12345"}
+    i = int(readLight())
+    print(type(i))
+    print(i)
+    if i < 40:
+        y=80
+    elif i>=40 and i < 60:
+        y=50
+    elif i>=60 and i<100:
+        y=30
+    elif i>=100 and i<200:
+        y=20
+    elif i>=200 and i<300:
+        y=5
+    else:
+        y=0
+	
+    print(y)
+    Process = Popen(['./test.sh %s %s %s'%(str(y),str(y),str(y))],shell=True)
+    print("outside script")
+    #print( "Light Level : " + str(readLight()) + " lx")
+    #url = 'http://172.20.18.16:5000/intensity'
+    #post_fields = {'intensity': str(readLight()),\
+		#'module_no': "23",\
+		#'pi_token':"test12345"}
     #request = Request(url, urlencode(post_fields).encode())
-    r= requests.post(url,json=post_fields)
-    print(r)
+    #r= requests.post(url,json=post_fields)
+    #print(r)
     time.sleep(5)
+    print("exiting")
    
 if __name__=="__main__":
    main()

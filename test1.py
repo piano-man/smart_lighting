@@ -49,6 +49,7 @@ def main():
  
   while True:
     print( "Light Level : " + str(readLight()) + " lx")
+    print("done")
     url = 'http://172.20.18.16:5000/intensity'
     post_fields = {'intensity': str(readLight()),\
 		'module_no': "23",\
@@ -56,7 +57,7 @@ def main():
     #request = Request(url, urlencode(post_fields).encode())
     r= requests.post(url,json=post_fields)
     print(r)
-    time.sleep(2)
+    
    
 if __name__=="__main__":
    main()
