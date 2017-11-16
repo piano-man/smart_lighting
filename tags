@@ -5,37 +5,38 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 BLUE_PIN	fading.py	/^BLUE_PIN  = 6$/;"	kind:variable	line:38
-CONTINUOUS_HIGH_RES_MODE_1	intensity_variation.py	/^CONTINUOUS_HIGH_RES_MODE_1 = 0x10$/;"	kind:variable	line:19
+CONTINUOUS_HIGH_RES_MODE_1	intensity_variation.py	/^CONTINUOUS_HIGH_RES_MODE_1 = 0x10$/;"	kind:variable	line:21
 CONTINUOUS_HIGH_RES_MODE_1	library.py	/^    CONTINUOUS_HIGH_RES_MODE_1 = 0x10$/;"	kind:variable	line:20
 CONTINUOUS_HIGH_RES_MODE_1	test1.py	/^CONTINUOUS_HIGH_RES_MODE_1 = 0x10$/;"	kind:variable	line:19
-CONTINUOUS_HIGH_RES_MODE_2	intensity_variation.py	/^CONTINUOUS_HIGH_RES_MODE_2 = 0x11$/;"	kind:variable	line:21
+CONTINUOUS_HIGH_RES_MODE_2	intensity_variation.py	/^CONTINUOUS_HIGH_RES_MODE_2 = 0x11$/;"	kind:variable	line:23
 CONTINUOUS_HIGH_RES_MODE_2	library.py	/^    CONTINUOUS_HIGH_RES_MODE_2 = 0x11$/;"	kind:variable	line:22
 CONTINUOUS_HIGH_RES_MODE_2	test1.py	/^CONTINUOUS_HIGH_RES_MODE_2 = 0x11$/;"	kind:variable	line:21
-CONTINUOUS_LOW_RES_MODE	intensity_variation.py	/^CONTINUOUS_LOW_RES_MODE = 0x13$/;"	kind:variable	line:17
+CONTINUOUS_LOW_RES_MODE	intensity_variation.py	/^CONTINUOUS_LOW_RES_MODE = 0x13$/;"	kind:variable	line:19
 CONTINUOUS_LOW_RES_MODE	library.py	/^    CONTINUOUS_LOW_RES_MODE = 0x13$/;"	kind:variable	line:18
 CONTINUOUS_LOW_RES_MODE	test1.py	/^CONTINUOUS_LOW_RES_MODE = 0x13$/;"	kind:variable	line:17
-DEVICE	intensity_variation.py	/^DEVICE     = 0x23 # Default device I2C address$/;"	kind:variable	line:10
+DEVICE	intensity_variation.py	/^DEVICE     = 0x23 # Default device I2C address$/;"	kind:variable	line:12
 DEVICE	library.py	/^    DEVICE = 0x23       # Default device I2C Address$/;"	kind:variable	line:15
 DEVICE	test1.py	/^DEVICE     = 0x23 # Default device I2C address$/;"	kind:variable	line:10
 GREEN_PIN	fading.py	/^GREEN_PIN = 5$/;"	kind:variable	line:37
 GY30	library.py	/^class GY30(object):$/;"	kind:class	line:8
-ONE_TIME_HIGH_RES_MODE_1	intensity_variation.py	/^ONE_TIME_HIGH_RES_MODE_1 = 0x20$/;"	kind:variable	line:24
+ONE_TIME_HIGH_RES_MODE_1	intensity_variation.py	/^ONE_TIME_HIGH_RES_MODE_1 = 0x20$/;"	kind:variable	line:26
 ONE_TIME_HIGH_RES_MODE_1	library.py	/^    ONE_TIME_HIGH_RES_MODE_1 = 0x20$/;"	kind:variable	line:25
 ONE_TIME_HIGH_RES_MODE_1	test1.py	/^ONE_TIME_HIGH_RES_MODE_1 = 0x20$/;"	kind:variable	line:24
-ONE_TIME_HIGH_RES_MODE_2	intensity_variation.py	/^ONE_TIME_HIGH_RES_MODE_2 = 0x21$/;"	kind:variable	line:27
+ONE_TIME_HIGH_RES_MODE_2	intensity_variation.py	/^ONE_TIME_HIGH_RES_MODE_2 = 0x21$/;"	kind:variable	line:29
 ONE_TIME_HIGH_RES_MODE_2	library.py	/^    ONE_TIME_HIGH_RES_MODE_2 = 0x21$/;"	kind:variable	line:28
 ONE_TIME_HIGH_RES_MODE_2	test1.py	/^ONE_TIME_HIGH_RES_MODE_2 = 0x21$/;"	kind:variable	line:27
-ONE_TIME_LOW_RES_MODE	intensity_variation.py	/^ONE_TIME_LOW_RES_MODE = 0x23$/;"	kind:variable	line:30
+ONE_TIME_LOW_RES_MODE	intensity_variation.py	/^ONE_TIME_LOW_RES_MODE = 0x23$/;"	kind:variable	line:32
 ONE_TIME_LOW_RES_MODE	library.py	/^    ONE_TIME_LOW_RES_MODE = 0x23$/;"	kind:variable	line:31
 ONE_TIME_LOW_RES_MODE	test1.py	/^ONE_TIME_LOW_RES_MODE = 0x23$/;"	kind:variable	line:30
-POWER_DOWN	intensity_variation.py	/^POWER_DOWN = 0x00 # No active state$/;"	kind:variable	line:12
+POWER_DOWN	intensity_variation.py	/^POWER_DOWN = 0x00 # No active state$/;"	kind:variable	line:14
 POWER_DOWN	library.py	/^    POWER_DOWN = 0x00   # No active state$/;"	kind:variable	line:12
 POWER_DOWN	test1.py	/^POWER_DOWN = 0x00 # No active state$/;"	kind:variable	line:12
-POWER_ON	intensity_variation.py	/^POWER_ON   = 0x01 # Power on$/;"	kind:variable	line:13
+POWER_ON	intensity_variation.py	/^POWER_ON   = 0x01 # Power on$/;"	kind:variable	line:15
 POWER_ON	library.py	/^    POWER_ON = 0x01     # Power on$/;"	kind:variable	line:13
 POWER_ON	test1.py	/^POWER_ON   = 0x01 # Power on$/;"	kind:variable	line:13
+Process	test2.py	/^Process = Popen(['.\/test.sh %s %s %s'%(str(var1),str(var2),str(var3))],shell=True)$/;"	kind:variable	line:5
 RED_PIN	fading.py	/^RED_PIN   = 4$/;"	kind:variable	line:36
-RESET	intensity_variation.py	/^RESET      = 0x07 # Reset data register value$/;"	kind:variable	line:14
+RESET	intensity_variation.py	/^RESET      = 0x07 # Reset data register value$/;"	kind:variable	line:16
 RESET	library.py	/^    RESET = 0x07        # Reset data register value$/;"	kind:variable	line:14
 RESET	test1.py	/^RESET      = 0x07 # Reset data register value$/;"	kind:variable	line:14
 STEPS	fading.py	/^STEPS     = 1$/;"	kind:variable	line:42
@@ -48,13 +49,13 @@ b	fading.py	/^			b = updateColor(b, STEPS)$/;"	kind:variable	line:164
 b	fading.py	/^b = 0.0$/;"	kind:variable	line:60
 bright	fading.py	/^bright = 255$/;"	kind:variable	line:57
 brightChanged	fading.py	/^brightChanged = False$/;"	kind:variable	line:62
-bus	intensity_variation.py	/^bus = smbus.SMBus(1)  # Rev 2 Pi uses 1$/;"	kind:variable	line:33
+bus	intensity_variation.py	/^bus = smbus.SMBus(1)  # Rev 2 Pi uses 1$/;"	kind:variable	line:35
 bus	test1.py	/^bus = smbus.SMBus(1)  # Rev 2 Pi uses 1$/;"	kind:variable	line:33
 checkKey	fading.py	/^def checkKey():$/;"	kind:function	line:97
 cont_high_res	library.py	/^    def cont_high_res(self):$/;"	kind:member	line:62
 cont_high_res2	library.py	/^    def cont_high_res2(self):$/;"	kind:member	line:66
 cont_low_res	library.py	/^    def cont_low_res(self):$/;"	kind:member	line:58
-convertToNumber	intensity_variation.py	/^def convertToNumber(data):$/;"	kind:function	line:35
+convertToNumber	intensity_variation.py	/^def convertToNumber(data):$/;"	kind:function	line:37
 convertToNumber	test1.py	/^def convertToNumber(data):$/;"	kind:function	line:35
 fading.py	fading.py	1;"	kind:file	line:1
 g	fading.py	/^			g = updateColor(g, -STEPS)$/;"	kind:variable	line:168
@@ -68,7 +69,7 @@ index	web_interface/app.py	/^def index():$/;"	kind:function	line:15
 intensity	web_interface/app.py	/^def intensity():$/;"	kind:function	line:20
 intensity_variation.py	intensity_variation.py	1;"	kind:file	line:1
 library.py	library.py	1;"	kind:file	line:1
-main	intensity_variation.py	/^def main():$/;"	kind:function	line:48
+main	intensity_variation.py	/^def main():$/;"	kind:function	line:50
 main	library.py	/^def main():$/;"	kind:function	line:141
 main	test1.py	/^def main():$/;"	kind:function	line:48
 measure	library.py	/^    def measure(self, mode, additional_delay=0):$/;"	kind:member	line:118
@@ -89,7 +90,7 @@ pwm	intensity_control/sample/gradual_bright_and_dim.py	/^pwm = GPIO.PWM(21, 50)$
 r	fading.py	/^			r = updateColor(r, -STEPS)$/;"	kind:variable	line:160
 r	fading.py	/^			r = updateColor(r, STEPS)$/;"	kind:variable	line:172
 r	fading.py	/^r = 255.0$/;"	kind:variable	line:58
-readLight	intensity_variation.py	/^def readLight(addr=DEVICE):$/;"	kind:function	line:40
+readLight	intensity_variation.py	/^def readLight(addr=DEVICE):$/;"	kind:function	line:42
 readLight	test1.py	/^def readLight(addr=DEVICE):$/;"	kind:function	line:40
 reset	library.py	/^    def reset(self):$/;"	kind:member	line:53
 setLights	fading.py	/^def setLights(pin, brightness):$/;"	kind:function	line:79
@@ -99,4 +100,7 @@ state	fading.py	/^state = True$/;"	kind:variable	line:64
 test1.py	test1.py	1;"	kind:file	line:1
 test2.py	test2.py	1;"	kind:file	line:1
 updateColor	fading.py	/^def updateColor(color, step):$/;"	kind:function	line:68
+var1	test2.py	/^var1 = 0$/;"	kind:variable	line:2
+var2	test2.py	/^var2 = 0$/;"	kind:variable	line:3
+var3	test2.py	/^var3 = 0$/;"	kind:variable	line:4
 wait_for_result	library.py	/^    def wait_for_result(self, additional=0):$/;"	kind:member	line:113
