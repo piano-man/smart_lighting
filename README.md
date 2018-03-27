@@ -10,7 +10,7 @@ An intelligent(adaptive) street lighting system with the primary target of energ
 [Click for Project Report and Architecture Details](https://drive.google.com/open?id=17WOsYEcniTXFiFlufh_jvIaauqoWXdgp)
 
 
-The files and folders to be considered for the final implementation re :-
+The files and folders to be considered for the final implementation are :-
 
 1)arduino:- The final folder in this particular folder contains all the arduino side codes.
 
